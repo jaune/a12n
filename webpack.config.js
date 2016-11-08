@@ -2,7 +2,8 @@ const webpack = require('webpack');
 
 module.exports = {
   entry: {
-    'a12n': './client/index.js'
+    'client': './src/client/index.js',
+    'editor': './src/editor/index.js'
   },
   devtool: 'source-map',
   output: {

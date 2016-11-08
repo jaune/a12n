@@ -1,9 +1,10 @@
 {
   "name": "a12n",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "main": "index.js",
   "scripts": {
     "develop": "concurrently -k \"webpack -w\" \"node .\"",
+    "eslint": "eslint src || exit 0",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
